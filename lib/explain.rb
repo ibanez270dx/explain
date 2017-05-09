@@ -3,6 +3,8 @@ require "uri"
 
 module Explain
   def self.explain(cmd)
-    `open https://explainshell.com/explain?cmd=#{URI.encode(cmd.join(' '))}`
+    unless system("open https://explainshell.com/explain?cmd=#{URI.encode(cmd.join(' '))}")
+      system "open https://explainshell.com/"
+    end
   end
 end
