@@ -20,7 +20,7 @@ rake install
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/explain.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ibanez270dx/explain.
 
 
 ## License
